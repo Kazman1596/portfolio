@@ -23,7 +23,7 @@ export default function Home() {
 
         {/* Main Content */}
 
-        <div className='w-screen h-screen snap-y snap-mandatory overflow-scroll'>
+        <div className='w-screen h-screen snap-y snap-mandatory overflow-scroll scroll-smooth'>
           {/* Cover */}
           
           <Cover />
@@ -41,6 +41,8 @@ export default function Home() {
           <CV />
 
           {/* Project Modal */}
+
+          <ProjectModal />
 
         </div>
         
