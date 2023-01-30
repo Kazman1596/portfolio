@@ -1,15 +1,5 @@
 const aboutParagraph = `
-        My name is Stephen Kaczmarowski and I graduated Northern Arizona University with a
-        Bachelor's in Microbiology and minoring in Chemistry. During COVID, I started
-        learning HTML, CSS, and JavaScript through Udemy, and quickly enveloped my time
-        learning these technologies.
-
-        I have always been a creator at heart; woodworking, music production, and software
-        development is no different. I love being able to create projects, applications, and
-        work through my code like a puzzle, making sure each piece is in place.
-
-        There is still so much to learn, and I am excited to grow my skills in tech for
-        a long time.
+        My name is Stephen Kaczmarowski.
     `
 ;
 
@@ -19,9 +9,7 @@ const travelBlog= {
     title: 'Travel Blog',
     link: '/',
     description: `
-        This is a C.R.U.D. application utilizing Google Firebase. Maybe
-        make it a point to look at LSDream's website for reference. What
-        a cool vibe.
+        This is a C.R.U.D. application utilizing Google Firebase.
     `,
 }
 
