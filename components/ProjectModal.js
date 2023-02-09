@@ -5,7 +5,7 @@ import { modalState } from '../atom/projectAtom';
 import { keyState } from '../atom/keyAtom';
 import { projectArray } from '../project_data/project_data';
 import Image from 'next/image';
-import { GitHub } from '@mui/icons-material';
+import { GitHub, Mood } from '@mui/icons-material';
 
 export default function ProjectModal() {
     
@@ -25,14 +25,18 @@ export default function ProjectModal() {
                 }}
                 ariaHideApp={false}
             >
-                <div>
-                    <Image className='rounded-[5px] pb-3' src={openProject.img} width={500} height={500} alt='project_gif' />
+                <div className=''>
+                    <Image className='rounded-[5px] pb-3' src={openProject.gif} width={700} height={700} alt='project_gif' />
                     <h1 className='font-labelle text-2xl text-center m-2'>{openProject.title}</h1>
-                    <p className='text-sm'>{openProject.description}</p>
-                    <a target='_blank' rel='noreferrer' href={openProject.link} className='flex p-1 text-sky-700 justify-end items-center cursor-pointer border-b-2 hover:border-b-sky-700 hover:text-amber-500 duration-200'>
+                    <p className='text-sm text-center'>{openProject.description}</p>
+                    {openProject.link && (<div> <a target='_blank' rel='noreferrer' href={openProject.repo} className='flex p-1 text-sky-700 justify-end items-center cursor-pointer border-b-2 hover:border-b-sky-700 hover:text-amber-500 duration-200'>
                             <GitHub className='' />
                             <p className='ml-2 text-xs'>repository.</p>
                     </a>
+                    <a target='_blank' rel='noreferrer' href={openProject.link} className='flex p-1 text-sky-700 justify-start items-center cursor-pointer border-b-2 hover:border-b-sky-700 hover:text-amber-500 duration-200'>
+                            <Mood />
+                            <p className='ml-2 text-xs'>go to application</p>
+                    </a> </div>)}
                 </div>
                 
             </Modal>
