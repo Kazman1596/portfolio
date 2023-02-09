@@ -8,7 +8,7 @@ const aboutParagraph = `
 const artistBlog= {
     id: 'travelBlog',
     img: '/images/artist_blog_resize.png',
-    gif: '/images/artist_blog_gif.gif',
+    gif: 'https://drive.google.com/uc?export=view&id=1cY152AW1gYOVFEmtDEjPtW3V0qFVhuoP',
     title: 'Artist Blog',
     repo: 'https://github.com/Kazman1596/artist-blog',
     link: 'https://artist-blog.vercel.app',
@@ -20,7 +20,7 @@ const artistBlog= {
 const instaConnect = {
     id: 'instaConnect',
     img: '/images/insta_clone_resize.png',
-    gif: '/images/insta_clone_gif.gif',
+    gif: 'https://drive.google.com/uc?export=view&id=1Qy7nBfYmtj2jPRB0WnKmyiWmXutAiWdP',
     title: 'Insta-Connect',
     repo: 'https://github.com/Kazman1596/insta-clone',
     link: 'https://insta-connect-drab.vercel.app/',
@@ -33,7 +33,7 @@ const instaConnect = {
 const videoSurf = {
     id: 'videoSurf',
     img: '/images/video_surf_resize.png',
-    gif: '/images/video_surf_gif.gif',
+    gif: 'https://drive.google.com/uc?export=view&id=1m1Dr8hRp4d3IyYc6ctWNPJmZDCHbXXWj',
     title: 'Video Surf',
     repo: 'https://github.com/Kazman1596/video_surf',
     link: 'https://video-surf.vercel.app',
