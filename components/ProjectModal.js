@@ -17,7 +17,7 @@ export default function ProjectModal() {
         <div>
             {open && (
             <Modal
-                className='max-w-lg w-[90%] p-6 absolute top-56 left-[50%] translate-x-[-50%] bg-white border-2 rounded-md shadow-md focus:ring-0'
+                className='max-w-lg w-[90%] p-6 absolute top-[5%] lg:top-[10%] left-[50%] translate-x-[-50%] bg-white border-2 rounded-md shadow-md focus:ring-0'
                 isOpen={open}
                 onRequestClose={()=>{
                     setOpen(false)
