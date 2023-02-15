@@ -8,7 +8,6 @@ import { menuState } from '../atom/menuAtom';
 import { useRecoilState } from 'recoil';
 
 const Menu = () => {
-    const [open, setOpen] = useState(false)
     const [openMenu, setOpenMenu] = useRecoilState(menuState)
 
     const handleClick = () => setOpenMenu(!openMenu)
@@ -31,9 +30,9 @@ const Menu = () => {
                         <Image className='rounded-full ml-5' src={'/images/profile_img.jpg'} width={150} height={150} alt={'profile_img'} />
                         <h1 className='font-labelle text-3xl m-5'>Stephen</h1>
                         <MenuItem onClick={closeMenu} link='#about' text='about'/>
-                        <MenuItem onClick={closeMenu} link='#cover' text='home'/>
+                        <MenuItem onClick={closeMenu} link='/' text='home'/>
                         <MenuItem onClick={closeMenu} link='#projects' text='projects'/>
-                        <MenuItem onClick={closeMenu} link='#cv' text='cv'/>
+                        <MenuItem onClick={closeMenu} link='#resume' text='resume'/>
                         <h1 className='font-labelle text-3xl m-5'>Contact</h1>
                         <div className='flex justify-center mb-2'>
                             <MenuItem onClick={closeMenu} link='https://github.com/Kazman1596' Icon={GitHub} />

@@ -28,9 +28,9 @@ export default function ProjectModal() {
                 <div className=''>
                     <div className='lg:flex'>
                         <div className='flex justify-center'>
-                            <img className='rounded-[15px] h-auto w-[600px] lg:h-[400px] pb-3' src={openProject.gif} alt='project_gif' />
+                            <img className='rounded-[15px] h-[500px] w-auto lg:h-[400px] mb-3' src={openProject.gif} alt='project_gif' />
                         </div>
-                        <div className=''>
+                        <div className='justify-center'>
                             <h1 className='font-labelle text-2xl text-center m-2'>{openProject.title}</h1>
                             <p className='text-sm text-center'>{openProject.description}</p>
                             {openProject.link && (<div> <a target='_blank' rel='noreferrer' href={openProject.repo} className='flex p-1 text-sky-700 justify-end items-center cursor-pointer border-b-2 hover:border-b-sky-700 hover:text-amber-500 duration-200'>
