@@ -3,9 +3,7 @@ import Menu from '../components/Menu'
 import Cover from '../components/Cover'
 import About from '../components/About'
 import Projects from '../components/Projects'
-import CV from '../components/CV'
 import ProjectModal from '../components/ProjectModal'
-import { useEffect } from 'react'
 import { useRecoilState } from 'recoil'
 import { menuState } from '../atom/menuAtom'
 
@@ -26,7 +24,7 @@ export default function Home() {
         <Menu />
 
         {/* Main Content */}
-        <div onClick={() => {setOpen(false)}} className='w-screen h-screen snap-y snap-mandatory overflow-y-scroll scroll-smooth'>
+        <div onClick={() => {setOpen(false)}} className='w-screen h-screen snap-y snap-mandatory overflow-x-hidden scroll-smooth'>
           {/* Cover */}
           
           <Cover />
@@ -38,10 +36,6 @@ export default function Home() {
           {/* Projects */}
 
           <Projects />
-
-          {/* CV / Resume */}
-
-          <CV />
 
           {/* Project Modal */}
 

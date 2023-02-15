@@ -4,7 +4,7 @@ import Menu from '../components/Menu';
 
 const Resume = () => {
     return (
-        <div>
+        <div className='container-layout'>
             <Menu />
             <CV />
         </div>

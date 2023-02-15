@@ -1,7 +1,10 @@
 const aboutParagraph = `
-        Self-taught front-end developer with in-depth knowledge of HTML, CSS, JSX, JavaScript, React,
-        and Next.js. I have built my knowledge of front-end technologies taking online
-        classes and working on my own projects throughout the years.
+    Hello! My name is Stephen Kaczmarowski and I am a self-taught JS 
+    front-end software developer. I am JavaScript oriented, and have experience in the React
+    and Next.js frameworks. I am highly-motivated and passionate about learning new skills and
+    consistently improving my proficiency in both JavaScript and new languages. I have always had
+    a passion for learning new skills to stimulate my creativity, and seeking
+    to launch my career in web-development.
     `
 ;
 

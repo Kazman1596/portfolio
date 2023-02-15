@@ -17,7 +17,7 @@ export default function ProjectModal() {
         <div>
             {open && (
             <Modal
-                className='max-w-4xl w-[90%] p-6 absolute top-[5%] lg:top-[10%] left-[50%] translate-x-[-50%] bg-white border-2 rounded-md shadow-md focus:ring-0'
+                className='max-w-3xl md:ml-[10%] xl:ml-0 w-[50vh] xl:w-[90%] p-6 absolute top-[16%] xl:top-[10%] left-[50%] translate-x-[-50%] bg-white border-2 rounded-md shadow-md focus:ring-0'
                 isOpen={open}
                 onRequestClose={()=>{
                     setOpen(false)
@@ -26,22 +26,34 @@ export default function ProjectModal() {
                 ariaHideApp={false}
             >
                 <div className=''>
-                    <div className='lg:flex'>
-                        <div className='flex justify-center'>
-                            <img className='rounded-[15px] h-[500px] w-auto lg:h-[400px] mb-3' src={openProject.gif} alt='project_gif' />
-                        </div>
-                        <div className='justify-center'>
-                            <h1 className='font-labelle text-2xl text-center m-2'>{openProject.title}</h1>
-                            <p className='text-sm text-center'>{openProject.description}</p>
-                            {openProject.link && (<div> <a target='_blank' rel='noreferrer' href={openProject.repo} className='flex p-1 text-sky-700 justify-end items-center cursor-pointer border-b-2 hover:border-b-sky-700 hover:text-amber-500 duration-200'>
-                                    <GitHub className='' />
-                                    <p className='ml-2 text-xs'>repository.</p>
+                    <div className='flex justify-center'>
+                        <img className='rounded-[15px] w-auto h-[200px] xl:h-[350px] mb-3' src={openProject.gif} alt='project_gif' />
+                    </div>
+                    <div className='my-2'>
+                        <h1 className='font-labelle text-2xl text-center m-2'>{openProject.title}</h1>
+                        <p className='text-sm text-center'>{openProject.description}</p>
+                        {openProject.link && (
+                        <div className='m-2'> 
+                            <a 
+                                target='_blank' 
+                                rel='noreferrer' 
+                                href={openProject.repo} 
+                                className='flex p-1 text-sky-700 justify-end items-center cursor-pointer border-b-2 hover:border-b-sky-700 hover:text-amber-500 duration-200'
+                            >
+                                <GitHub className='' />
+                                <p className='ml-2 text-xs'>repository.</p>
                             </a>
-                            <a target='_blank' rel='noreferrer' href={openProject.link} className='flex p-1 text-sky-700 justify-start items-center cursor-pointer border-b-2 hover:border-b-sky-700 hover:text-amber-500 duration-200'>
-                                    <Mood />
-                                    <p className='ml-2 text-xs'>go to application</p>
-                            </a> </div>)}
+                            <a 
+                                target='_blank' 
+                                rel='noreferrer' 
+                                href={openProject.link} 
+                                className='flex p-1 text-sky-700 justify-start items-center cursor-pointer border-b-2 hover:border-b-sky-700 hover:text-amber-500 duration-200'
+                            >
+                                <Mood />
+                                <p className='ml-2 text-xs'>go to application</p>
+                            </a> 
                         </div>
+                        )}
 
                     </div>
                 </div>
