@@ -14,9 +14,6 @@ const Menu = () => {
     const handleClick = () => setOpenMenu(!openMenu)
     const closeMenu = () => setOpenMenu(false)
 
-    // closeMobileMenu does not work at the moment //
-
-
     return (
         <div>
 
