@@ -34,7 +34,7 @@ const Menu = () => {
                     ):(
                         <motion.div
                         whileHover={{ scale: 1.2, rotate: 180 }}
-                        whiteTap={{
+                        whileTap={{
                             scale: 0.8,
                             rotate: -90,
                             borderRadius: '100%'
