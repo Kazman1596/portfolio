@@ -16,7 +16,7 @@ const Project = ({img, gif, title, description, id}) => {
     }
 
     return (
-        <div onClick={()=> clickEvent()} className='mb-5 rounded-[15px] bg-slate-300 text-center hover:cursor-pointer scale-95 hover:scale-100 hover:shadow-lg duration-100'>
+        <div onClick={()=> clickEvent()} className='mb-5 rounded-[15px] bg-gray-200 text-center hover:cursor-pointer scale-95 hover:scale-100 hover:shadow-lg duration-100'>
             <div className='flex justify-center'>
                 <Image className='p-2 rounded-[15px]' src={img} width={300} height={300} alt='test'/>
             </div>

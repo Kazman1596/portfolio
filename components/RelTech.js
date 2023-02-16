@@ -11,7 +11,7 @@ const RelTech = () => {
     ]
 
     return (
-        <div className='flex justify-center mt-[20vh] md:mt-[50vh]'>
+        <div className='flex justify-center mt-[5vh] sm:mt-[20vh]'>
             <div className=''>
                 <p className='font-labelle text-xl text-center'>Relevant Technologies</p>
                 <div className='flex'>
