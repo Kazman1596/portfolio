@@ -1,10 +1,12 @@
 const aboutParagraph = `
-    Hello! My name is Stephen Kaczmarowski and I am a self-taught JS 
-    front-end software developer. I am JavaScript oriented, and have experience in the React
-    and Next.js frameworks. I am highly-motivated and passionate about learning new skills and
-    consistently improving my proficiency in both JavaScript and new languages. I have always had
-    a passion for learning new skills to stimulate my creativity, and seeking
-    to launch my career in web-development.
+    Hello! My name is Stephen Kaczmarowski and I am a self-taught front-end
+    software developer. I am proficient in both the React and Next.js frameworks
+    and have experience with HTML and CSS. I am highly-motivated and passionate
+    about learning new skills to stimulate my creativity, and currently attending
+    a Java bootcamp to broaden my skills. I love challenging myself with new
+    projects, and always thinking of new ways to improve my applications.
+    I am excited about implementing my passions with a team, and looking to
+    launch my career in software development.
     `
 ;
 
