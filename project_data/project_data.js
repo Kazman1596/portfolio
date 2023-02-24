@@ -1,5 +1,5 @@
 const aboutParagraph = `
-    Hello! My name is Stephen Kaczmarowski and I am a self-taught front-end
+    Hello! My name is Stephen Kaczmarowski and I am an entry level front-end
     software developer. I am proficient in both the React and Next.js frameworks
     and have experience with HTML and CSS. I am highly-motivated and passionate
     about learning new skills to stimulate my creativity, and currently attending
@@ -34,6 +34,7 @@ const instaConnect = {
         and Google Authentication to track likes and comments with uploaded posts
     `,   
 }
+
 
 const videoSurf = {
     id: 'videoSurf',
