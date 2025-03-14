@@ -28,9 +28,7 @@ export default function Home() {
 
         {/* Main Content */}
         <div onClick={() => {setOpen(false)}} className='w-screen h-screen snap-y snap-mandatory overflow-x-hidden scroll-smooth'>
-          {/* Cover */}
-          
-          <Cover />
+        
 
           {/* About */}
 

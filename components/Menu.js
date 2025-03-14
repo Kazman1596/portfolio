@@ -63,7 +63,7 @@ const Menu = () => {
                                 <MenuItem onClick={closeMenu} link='/' text='home'/>
                                 <MenuItem onClick={closeMenu} link='#about' text='about'/>
                                 <MenuItem onClick={closeMenu} link='#projects' text='projects'/>
-                                <MenuItem onClick={closeMenu} link='https://drive.google.com/file/d/1kheenQnorwq8CR34xSeMWFIPtb0iO4em/view?usp=sharing' text='resume'/>
+                                <MenuItem onClick={closeMenu} link='https://docs.google.com/document/d/1Zo5yM_mnJAG6U6c93Li28NeM2Wq7Nfsin0sFExsa804/edit?usp=sharing' text='resume'/>
                                 <h1 className='font-labelle text-3xl m-5'>Contact</h1>
                                 <div className='flex justify-center mb-2'>
                                     <MenuItem onClick={closeMenu} link='https://github.com/Kazman1596' Icon={GitHub} />
